@@ -290,8 +290,9 @@ a {
   background: #e3ab35;
   text-align: center;
   color: white;
-  padding: 0.2rem;
+  padding: 1rem;
   font-size: 0.9rem;
+  height: 4rem;
 }
 
 /*--------------------------------------------------------------
