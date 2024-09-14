@@ -40,11 +40,4 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- WhatsApp Chat -->
-  <url>
-    <loc>https://api.whatsapp.com/send?phone=+27768485728&amp;text=Hello%20there</loc>
-    <lastmod>2024-09-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
