@@ -34,36 +34,26 @@
 
     <meta charset="UTF-8" />
     <meta
-      name="description"
-      content="Keep your BnB sparkling clean with our professional cleaning services. We offer thorough cleaning, competitive rates, and flexible scheduling."
-    />
-    <meta
       name="keywords"
       content="BnB cleaning in Cape Town, bed and breakfast cleaning in Durbnaville, guest house cleaning, accommodation cleaning, professional cleaning services."
     />
     <meta name="robots" content="index, follow" />
     <meta
       property="og:title"
-      content="BnB cleaning services with - BnB Cleaners"
+      content="BnB Cleaners | Expert Cleaning Solutions in Cape Town"
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bnbcleaners.co.za/" />
+    <meta property="og:image" content="./images/cleaning-image.jpg" />
     <meta
       property="og:description"
-      content="Looking for a reliable BnB cleaning service? Trust us to keep your guest rooms and common areas spotless. Contact us today for a free quote!"
+      content="Looking for reliable cleaning service? Trust us to keep your property or office spotless. We offer thorough cleaning, competitive rates, and flexible scheduling. Contact us today for a free quote!"
     />
-    <meta property="og:image" content="./images/favicon-32X32.png" />
-    <meta
-      name="twitter:title"
-      content="BnB cleaning services with - BnB Cleaners"
-    />
-    <meta
-      name="twitter:description"
-      content="Keep your BnB sparkling clean with our professional cleaning services. We offer thorough cleaning, competitive rates, and flexible scheduling."
-    />
+    <meta property="og:site_name" content="BnB Cleaners" />
+    <meta property="og:locale" content="en_US" />
     <meta name="author" content="Ralph Mavhunga" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      BnB Cleaners | Expert Cleaning Solutions in and around Cape Town
-    </title>
+    <title>BnB Cleaners | Expert Cleaning Solutions in Cape Town</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link
       rel="stylesheet"
@@ -81,13 +71,17 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="menu grid">
       <div class="menu-wrapper">
         <div>
-          <h1 class="logo">BnB Cleaners</h1>
+          <h1><a href="#home" class="logo">BnB Cleaners</a></h1>
         </div>
 
         <div class="nav-bar">
@@ -104,7 +98,7 @@
       </div>
     </header>
 
-    <main class="main-area">
+    <main class="main-area" id="home">
       <section class="hero grid">
         <div class="hero-content">
           <div class="banner">
@@ -112,10 +106,22 @@
               Clean living, happy staying with BnB Cleaners
             </h2>
             <p class="banner-margin sub-hero-text">
-              Keep your property sparkling clean and your guests happy. Our
-              professional cleaning services are tailored to meet the unique
-              needs of the hospitality industry. Let us handle the cleaning, so
-              you can focus on providing exceptional experiences.
+              Keep your property spotless and ensure your guests enjoy a
+              memorable stay with our thorough cleaning services. We specialize
+              in deep cleaning, ensuring that every part of your space is
+              immaculate, from high-traffic areas to hidden corners. Whether
+              regular maintenance or a comprehensive deep clean, we sanitize
+              surfaces, vacuum carpets, and disinfect high-touch areas, leaving
+              your property fresh and inviting.
+            </p>
+            <p class="banner-margin sub-hero-text">
+              We provide indoor cleaning as well as grass cutting and outdoor
+              maintenance to ensure your property looks great inside and out.
+              Our services include cleaning homes and offices, tailored to your
+              needs. Whether you oversee a hotel, guesthouse, or office
+              building, our flexible services can be customized to suit you. Let
+              us take care of all your cleaning needs so you can concentrate on
+              providing great experiences for your guests and clients.
             </p>
             <a href="#book" class="booking-btn banner-margin">Get a Qoute</a>
             <a href="tel:+27768485728" class="booking-btn banner-margin"
@@ -144,16 +150,18 @@
 
       <section class="about grid">
         <div class="about-content">
-          <h1 class="welcome-message-title">About Us</h1>
+          <h2 class="welcome-message-title">About Us</h2>
           <p class="about-us">
-            <span style="font-weight: 500">
-              We're more than just cleaners. We're your partners in
-              hospitality.</span
+            <span>
+              We are more than just cleaners. We are your partners in keeping
+              your property clean.</span
             >
-            Our team of dedicated professionals is committed to providing
-            exceptional cleaning services that exceed your expectations. With
-            years of experience in the industry, we understand the unique needs
-            of BnBs and strive to deliver consistent, high-quality results.
+            BnB Cleaners is committed to providing exceptional cleaning and
+            maintenance services that exceed your expectations. With years of
+            experience in the industry, we understand the unique needs of
+            domestic cleaning, office cleaning, grass cutting, pool cleaning,
+            and BnBs, and strive to deliver consistent, high-quality results
+            tailored to each environment.
           </p>
         </div>
       </section>
@@ -161,14 +169,12 @@
       <section class="services grid" id="services">
         <div class="services-content">
           <div class="services-text-content">
-            <h1 class="services-title">Services</h1>
+            <h2 class="services-title">Services</h2>
           </div>
 
           <div class="services-card-content">
             <span class="material-symbols-outlined services-icon"> home </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Deep cleaning
-            </h1>
+            <h3 class="services-caption">Deep cleaning</h3>
             <p class="services-caption">
               Our deep cleaning service goes beyond the surface. We scrub away
               dirt, grime, and germs from every nook and cranny of your
@@ -181,14 +187,12 @@
             <span class="material-symbols-outlined services-icon">
               cleaning
             </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Wall cleaning
-            </h1>
+            <h3 class="services-caption">Wall cleaning</h3>
             <p class="services-caption">
-              Freshen up your property's walls with our expert cleaning
-              services. We use gentle, effective cleaning solutions to remove
-              stains, scuffs, and fingerprints, leaving your walls looking like
-              new.
+              Freshen up your property's walls with our domestic and commercial
+              cleaning services. We use gentle, effective cleaning solutions to
+              remove stains, scuffs, and fingerprints, leaving your walls
+              looking like new.
             </p>
           </div>
 
@@ -196,25 +200,21 @@
             <span class="material-symbols-outlined services-icon">
               window
             </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Window cleaning
-            </h1>
+            <h3 class="services-caption">Window cleaning</h3>
             <p class="services-caption">
               Let the light in with our sparkling window cleaning services. Our
-              professional team will leave your BnB's windows crystal clear,
-              allowing natural light to brighten up your space.
+              professional team will leave your home and office windows crystal
+              clear, allowing natural light to brighten up your space.
             </p>
           </div>
 
           <div class="services-card-content">
             <span class="material-symbols-outlined services-icon"> chair </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Furniture cleaning
-            </h1>
+            <h3 class="services-caption">Furniture cleaning</h3>
             <p class="services-caption">
-              Give your BnB's furniture a fresh start. Our professional cleaning
-              services will restore the beauty and comfort of your upholstered
-              pieces.
+              Give your bnb, home, and office furniture a fresh start. Our
+              cleaning services will restore the beauty and comfort of your
+              upholstered pieces.
             </p>
           </div>
 
@@ -222,21 +222,17 @@
             <span class="material-symbols-outlined services-icon">
               flatware
             </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Kitchen cleaning
-            </h1>
+            <h3 class="services-caption">Kitchen cleaning</h3>
             <p class="services-caption">
-              Elevate your BnB's kitchen standards with our deep cleaning
-              services. We'll tackle even the toughest stains and odors, leaving
-              your kitchen looking and smelling fresh.
+              Elevate your house, restaurant, and office kitchen standards with
+              our deep cleaning services. We'll tackle even the toughest stains
+              and odors, leaving your kitchen looking and smelling fresh.
             </p>
           </div>
 
           <div class="services-card-content">
             <span class="material-symbols-outlined services-icon"> pool </span>
-            <h1 class="services-caption" style="font-weight: bold">
-              Pool cleaning
-            </h1>
+            <h3 class="services-caption">Pool cleaning</h3>
             <p class="services-caption">
               Experience the crystal-clear waters of a professionally cleaned
               pool. Our pool cleaning experts will maintain the balance of your
@@ -260,16 +256,20 @@
       <section class="booking-form grid" id="book">
         <div class="booking-form-content">
           <div class="booking-image">
-            <h1 class="services-title">Get a Quote</h1>
+            <h2 class="services-title">Get a Quote</h2>
           </div>
 
           <div class="book-us">
-            <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+            <script
+              charset="utf-8"
+              type="text/javascript"
+              src="//js-eu1.hsforms.net/forms/embed/v2.js"
+            ></script>
             <script>
               hbspt.forms.create({
                 region: "eu1",
                 portalId: "145553105",
-                formId: "7c9dbfe2-4cbb-47af-a8b3-771a0c1b824b"
+                formId: "7c9dbfe2-4cbb-47af-a8b3-771a0c1b824b",
               });
             </script>
           </div>
@@ -285,7 +285,12 @@
               href="https://ralphmavhunga.netlify.app/"
               class="footer-link"
               target="_blank"
-              >Website by Ralph</a
+              >Website by Ralph |</a
+            >
+            <a
+              href="https://www.facebook.com/profile.php?id=61566740043698"
+              target="_blank"
+              ><i class="fab fa-facebook"></i> Facebook</a
             >
           </p>
         </div>
