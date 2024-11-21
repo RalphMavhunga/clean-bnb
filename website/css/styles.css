@@ -339,13 +339,13 @@ CSS Grid layout for wider screens, when browser supports grid:
     }
 
     .banner {
-      grid-column: 3/6;
+      grid-column: 3/7;
       padding-top: 6rem;
       padding-bottom: 3rem;
     }
 
     .hero-image {
-      grid-column: 7/11;
+      grid-column: 8/11;
     }
 
     .about-content {
